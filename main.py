@@ -152,10 +152,10 @@ if __name__ == '__main__':
     elif config == 'five_datasets_l2p':
         from configs.five_datasets_l2p import get_args_parser
         config_parser = subparser.add_parser('five_datasets_l2p', help='5-Datasets L2P configs')
-    elif config == 'ucf101_10task_RainbowPrompt':
+    elif config == 'ucf101_l2p':
         from configs.ucf101_l2p import get_args_parser
         config_parser = subparser.add_parser('ucf101_l2p', help='UCF101 L2P configs')
-    elif config == 'activitynet_10task_RainbowPrompt':
+    elif config == 'activitynet_l2p':
         from configs.activitynet_l2p import get_args_parser
         config_parser = subparser.add_parser('activitynet_l2p', help='ActivityNet L2P configs')
     else:
